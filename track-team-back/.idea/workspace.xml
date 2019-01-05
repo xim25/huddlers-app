@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c2e1c41-b75e-4296-8c1f-12468a1c1418" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/precache-manifest.636c718fcf73558f2d06f0f7d9f4099f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/precache-manifest.b6db34759b206331270d8f372fb7f3ed.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/1.af863b0c.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/1.af863b0c.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/main.c8a5f96a.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/css/main.c8a5f96a.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/1.0ef0d3d4.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/1.0ef0d3d4.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/main.888d131b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/js/main.888d131b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/1.30344525.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/1.30344525.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/main.b3e91fa5.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/main.b3e91fa5.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/1.f124c742.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/1.f124c742.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/main.d7b75462.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/main.d7b75462.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../track-team-front" beforeDir="false" afterPath="$PROJECT_DIR$/../track-team-front" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../track-team-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../track-team-front/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="46">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -110,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Task.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -122,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1541">
               <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
             </state>
           </provider>
@@ -159,13 +159,13 @@
         <option value="$PROJECT_DIR$/models/Team.js" />
         <option value="$PROJECT_DIR$/routes/company.js" />
         <option value="$PROJECT_DIR$/helpers/mailer.js" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/models/Project.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/Task.js" />
         <option value="$PROJECT_DIR$/routes/project.js" />
         <option value="$PROJECT_DIR$/routes/task.js" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -249,12 +249,12 @@
       <workItem from="1544675684679" duration="14968000" />
       <workItem from="1545499524355" duration="8855000" />
       <workItem from="1546393554909" duration="436000" />
-      <workItem from="1546472664977" duration="24631000" />
+      <workItem from="1546472664977" duration="24658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48890000" />
+    <option name="totallyTimeSpent" value="48917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -366,24 +366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -405,6 +391,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
