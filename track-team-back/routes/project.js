@@ -16,7 +16,7 @@ router.post("/", (req, res) => {
     const newProject = new Project({
         name: req.body.name,
         _creator: req.body._creator,
-        finalDate: req.body.finalDate
+        done: req.body.done
     });
     newProject.save()
         .then(newProject => {

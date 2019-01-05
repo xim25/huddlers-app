@@ -11,11 +11,10 @@ const projectSchema = new Schema ({
         ref: 'User',
         required: true
     },
-    finalDate: {
+    description: {
         type: String,
-        required: true
     },
-    inTime: {
+    done: {
         type: Boolean,
         default: false
     },
