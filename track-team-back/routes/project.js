@@ -13,12 +13,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-    const newProject = new Project({
-        name: req.body.name,
-        _creator: req.body._creator,
-        done: req.body.done
-    });
-    newProject.save()
+    Project.create(req.body)
         .then(newProject => {
             res.status(200).json({newProject});
         })

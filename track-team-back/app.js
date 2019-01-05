@@ -48,7 +48,6 @@ app.use(require('node-sass-middleware')({
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 
@@ -67,6 +66,10 @@ app.use('/api/auth', auth);
 app.use('/api/company', company);
 app.use('/api/team', team);
 app.use('/api/project', project);
+
+app.all('/*', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
 
 
 module.exports = app;
