@@ -60,12 +60,15 @@ const auth = require('./routes/auth');
 const company = require('./routes/company');
 const team = require('./routes/team');
 const project = require('./routes/project');
+const task = require('./routes/task');
 
 
 app.use('/api/auth', auth);
 app.use('/api/company', company);
 app.use('/api/team', team);
 app.use('/api/project', project);
+app.use('/api/task', task);
+
 
 app.all('/*', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');

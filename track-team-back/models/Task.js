@@ -11,29 +11,11 @@ const taskSchema = new Schema ({
         enum: ["Resolved", "Doing"],
         default: "Doing"
     },
-    finalDate: {
-        type: String,
-        required: true
-    },
-    inTime: {
-        type: Boolean,
-        default: false
-    },
     _project: {
-        type: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
         ref: 'Project',
         required: true
     },
-    _owner: {
-        type: Schema.Types.ObjectId,
-        ref: 'User',
-        required: true
-    },
-    _creator: {
-        type: Schema.Types.ObjectId,
-        ref: 'User',
-        required: true
-    }
 },
     {
         timestamps: {
