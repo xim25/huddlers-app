@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const Project = require ('../models/Project');
 
-router.get("/", (req, res) => {
-    Project.find()
+router.get("/:id",  (req, res) => {
+    Project.find({company:req.params.id})
         .then(projects => {
             res.status(200).json({projects});
         })

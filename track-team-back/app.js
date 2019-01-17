@@ -32,9 +32,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // CORS
-app.use(cors({
+
+const corsOptions = {
+    origin: true,
+    credentials: true
+};
+app.use(cors(corsOptions));
+/*app.use(cors({
     origin:["http://localhost:3001"]
-}));
+}));*/
 
 // Express View engine setup
 

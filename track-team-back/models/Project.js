@@ -11,6 +11,11 @@ const projectSchema = new Schema ({
         ref: 'User',
         required: true
     },
+    _owner: {
+        type: Schema.Types.ObjectId,
+        ref: 'Company',
+        required: true
+    },
     description: {
         type: String,
     },
